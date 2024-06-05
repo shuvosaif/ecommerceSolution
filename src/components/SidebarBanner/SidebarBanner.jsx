@@ -4,7 +4,7 @@ import bannerLogo from "../../assets/image/hero_endframe__cvklg0xk3w6e_large 2.s
 const SidebarBanner = () => {
   return (
     <div className="container flex flex-col lg:flex-row justify-start gap-10 pt-10">
-      <div className="w-3/12">
+      <div className="w-3/12 border-r">
         <ul>
           <li>Womans Fashion</li>
           <li>Men's Fashion </li>
