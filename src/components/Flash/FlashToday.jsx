@@ -1,27 +1,47 @@
-import React from "react";
-import barLogo from "../../assets/icon/Ellipse_8.svg"
+import React from 'react'
+import barLogo from '../../assets/icon/Ellipse_8.svg'
 
 const FlashToday = () => {
   return (
-    <div>
+    <div className='container pt-10'>
       <div>
         {/* upperpart with time & left right */}
-        <div>
+        <div className='flex flex-col lg:flex-row  items-center gap-10'>
           {/* text & Time */}
           <div>
             {/* Text */}
-            <div>
+            <div className='flex flex-col lg:flex-row items-center gap-4'>
               {/* Today */}
-              <img src={barLogo} className="" />
+              <div className='w-5 h-10 bg-red-600 rounded-lg'></div>
+              <div> Today's</div>
             </div>
-            <div>Flash Sales</div>
+            <div className='text-[36px]'>Flash Sales</div>
           </div>
-          <div>
+          <div className='flex flex-row'>
             {/* Time */}
-            <div>{/* Days */}</div>
-            <div>{/* Hours */}</div>
-            <div>{/* Minutes */}</div>
-            <div>{/* Seconds */}</div>
+            <div>
+              {/* Days */}
+              <div>Days</div>
+              <div className='text-[36px]'>03</div>
+            </div>
+            <div >:</div>
+            <div>
+              {/* Hours */}
+              <div>Hours</div>
+              <div className='text-[36px]'>23</div>
+            </div>
+            <div>:</div>
+            <div>
+              {/* Minutes */}
+              <div>Minutes</div>
+              <div className='text-[36px]'>19</div>
+            </div>
+            <div>:</div>
+            <div>
+              {/* Seconds */}
+              <div>Seconds</div>
+              <div className='text-[36px]'>56</div>
+            </div>
           </div>
         </div>
         <div>
@@ -32,7 +52,7 @@ const FlashToday = () => {
       </div>
       <div>{/* Lowerpart With card */}</div>
     </div>
-  );
-};
+  )
+}
 
-export default FlashToday;
+export default FlashToday
