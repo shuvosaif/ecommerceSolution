@@ -1,6 +1,6 @@
 import React from 'react'
 import bannerPic from '../../assets/image/JBL_BOOMBOX_2_HERO_020_x1.svg'
-const Bannner = () => {
+const Banner = () => {
   return (
     <div className='container pt-36'>
       <div className='flex justify-between items-center text-white bg-black '>
@@ -45,4 +45,4 @@ const Bannner = () => {
   )
 }
 
-export default Bannner
+export default Banner
