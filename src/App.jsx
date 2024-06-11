@@ -5,7 +5,7 @@ import SignUp from './pages/SignUp'
 const App = () => {
   return (
     <MainLayout>
-      <Home />
+      {/* <Home /> */}
       <SignUp />
     </MainLayout>
   )
