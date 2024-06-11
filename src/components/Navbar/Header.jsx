@@ -4,8 +4,8 @@ import cartLogo from '../../assets/icon/Cart1_with_buy.svg'
 
 const Header = () => {
   return (
-    <div className=' container text-base flex flex-col lg:flex-row justify-between items-center border-b '>
-      <div className='items-center'>Exclusive Item</div>
+    <div className=' container text-base flex flex-col lg:flex-row justify-between items-center my-5 '>
+      <div className='items-center'>Exclusive</div>
       <div className='items-center'>
         <ul className='flex flex-col lg:flex-row justify-between gap-4'>
           <li>Home</li>
@@ -14,14 +14,12 @@ const Header = () => {
           <li>Sign Up</li>
         </ul>
       </div>
-      <i className='fa-solid fa-magnifying-glass'></i>
-      <div className='flex flex-col lg:flex-row justify-end gap-4 border-2 border-red-400'>
+      <div className='flex flex-col lg:flex-row justify-end gap-8 rounded-lg border-2 p-1 bg-gray-100'>
         <input
-          className='rounded-lg bg-gray-80'
+          className='bg-gray-100 text-white'
           placeholder='What are you are looking for'
         ></input>
-        <img src={searchLogo} />
-        <img src={cartLogo} />
+        <i className='fa-solid fa-magnifying-glass mt-2'></i>
       </div>
     </div>
   )

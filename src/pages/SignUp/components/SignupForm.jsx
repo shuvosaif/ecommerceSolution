@@ -31,7 +31,7 @@ const SignupForm = () => {
       </div>
       <div className="flex flex-col gap-5 mt-5">
         <div className="w-full h-full">
-          <button className="h-full w-full rounded-lg p-5 border-2 bg-red-500 text-white ">
+          <button className="h-full w-full rounded-lg p-5 text-white ">
             Create Account
           </button>
         </div>

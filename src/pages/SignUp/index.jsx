@@ -1,20 +1,20 @@
-import React from "react";
-import SideImage from "./components/SideImage";
-import SignupForm from "./components/SignupForm";
+import React from 'react'
+import SideImage from './components/SideImage'
+import SignupForm from './components/SignupForm'
 
 const SignUp = () => {
   return (
     <>
-      <div className=" container grid grid-cols-12 border-2 border-red-600">
-        <div className="col-span-6 border-2 border-green-600">
+      <div className='  grid grid-cols-12'>
+        <div className='col-span-6 '>
           <SideImage />
         </div>
-        <div className="col-span-6 flex flex-col justify-center items-center border-2 border-yellow-600 ">
+        <div className='container col-span-6 flex flex-col justify-center items-center  '>
           <SignupForm />
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SignUp;
+export default SignUp
