@@ -5,7 +5,7 @@ import FlashCategory from '../../components/Flash/FlashCategory'
 import FlashMonth from '../../components/Flash/FlashMonth'
 import FlashOurProduct from '../../components/Flash/FlashOurProduct'
 import FlashFeatured from '../../components/Flash/FlashFeatured'
-import Service from '../../components/Footer/Service'
+import Service from '../../components/Flash/Service'
 import Banner from '../../components/Flash/Banner'
 
 const Home = () => {
