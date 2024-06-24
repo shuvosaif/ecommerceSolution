@@ -1,8 +1,8 @@
 import React from "react";
-import bannerLogo from "../../assets/image/hero_endframe__cvklg0xk3w6e_large 2.svg";
-import appleLogo from "../../assets/icon/1200px-Apple_gray_logo 1.svg";
-import arrowLogo from "../../assets/icon/Vector_(3)_h.svg";
-import sideArrowLogo from "../../assets/icon/Vector_h.svg";
+import bannerLogo from "../../../assets/image/hero_endframe__cvklg0xk3w6e_large 2.svg";
+import appleLogo from "../../../assets/icon/1200px-Apple_gray_logo 1.svg";
+import arrowLogo from "../../../assets/icon/Vector_(3)_h.svg";
+import sideArrowLogo from "../../../assets/icon/Vector_h.svg";
 
 const SidebarBanner = () => {
   return (

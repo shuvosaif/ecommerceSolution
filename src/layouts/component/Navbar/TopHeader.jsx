@@ -1,5 +1,5 @@
 import React from "react";
-import DropArrow from "../../assets/icon/down-arrow.svg";
+import DropArrow from "../../../assets/icon/down-arrow.svg";
 
 const TopHeader = () => {
   return (

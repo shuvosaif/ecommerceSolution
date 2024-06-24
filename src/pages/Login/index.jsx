@@ -1,6 +1,6 @@
 import React from "react";
-import SideImageLogin from "./SideImageLogin";
-import LoginForm from "./LoginForm";
+import SideImageLogin from "./component/SideImageLogin";
+import LoginForm from "./component/LoginForm";
 
 const Login = () => {
   return (

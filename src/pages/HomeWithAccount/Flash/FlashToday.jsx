@@ -1,14 +1,14 @@
 import React from "react";
-import barLogo from "../../assets/icon/Ellipse_8.svg";
-import rightArrow from "../../assets/icon/Vector.svg";
-import leftArrow from "../../assets/icon/Vector_(1).svg";
-import joyStick from "../../assets/image/g92-2-500x5001.svg";
-import favouriteLogo from "../../assets/icon/Vector_(2).svg";
-import quickView from "../../assets/icon/QuickView.svg";
-import ratingStar from "../../assets/icon/Vector_(3).svg";
-import keyBoard from "../../assets/image/ak-900-01-500x5001.svg";
-import tv from "../../assets/image/tv.png";
-import chair from "../../assets/image/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash_1.svg";
+import barLogo from "../../../assets/icon/Ellipse_8.svg";
+import rightArrow from "../../../assets/icon/Vector.svg";
+import leftArrow from "../../../assets/icon/Vector_(1).svg";
+import joyStick from "../../../assets/image/g92-2-500x5001.svg";
+import favouriteLogo from "../../../assets/icon/Vector_(2).svg";
+import quickView from "../../../assets/icon/QuickView.svg";
+import ratingStar from "../../../assets/icon/Vector_(3).svg";
+import keyBoard from "../../../assets/image/ak-900-01-500x5001.svg";
+import tv from "../../../assets/image/tv.png";
+import chair from "../../../assets/image/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash_1.svg";
 
 const FlashToday = () => {
   return (

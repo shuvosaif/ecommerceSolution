@@ -2,15 +2,15 @@ import React from "react";
 import barLogo from "../../../assets/icon/Ellipse_8.svg";
 import rightArrow from "../../../assets/icon/Vector.svg";
 import leftArrow from "../../../assets/icon/Vector_(1).svg";
-import bag from "../../../assets/image/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag1.svg";
+import joyStick from "../../../assets/image/g92-2-500x5001.svg";
 import favouriteLogo from "../../../assets/icon/Vector_(2).svg";
 import quickView from "../../../assets/icon/QuickView.svg";
 import ratingStar from "../../../assets/icon/Vector_(3).svg";
-import jacket from "../../../assets/image/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat1.svg";
-import casset from "../../../assets/image/gammaxx-l240-argb-1-500x5001.svg";
-import bookShelf from "../../../assets/image/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash1.svg";
+import keyBoard from "../../../assets/image/ak-900-01-500x5001.svg";
+import tv from "../../../assets/image/tv.png";
+import chair from "../../../assets/image/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash_1.svg";
 
-const FlashMonth = () => {
+const FlashToday = () => {
   return (
     <div className="container pt-36">
       <div className="flex flex-col lg:flex-row justify-between items-center">
@@ -21,27 +21,29 @@ const FlashMonth = () => {
             {/* Text */}
             <div className="flex flex-col lg:flex-row items-center gap-4">
               {/* Today */}
-              <div className="w-5 h-10 bg-red-600 rounded-lg"></div>
-              <div className="text-red-500">This Month</div>
+              {/* <div className="w-5 h-10 bg-red-600 rounded-lg"></div> */}
+              <div className=""> Wishlist(4)</div>
             </div>
-            <div className="text-[36px]">Best Selling Products</div>
+            <div className="text-[36px]"></div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-2">
+        <div className="flex flex-col lg:flex-row gap-2 py-10">
           {/* Button left & Right */}
-          <button className="bg-red-500 text-white rounded-md px-8 py-4 ">
-            View All
-          </button>
+          <button className="rounded-sm border-2 px-10 py-5 ">Move All To Bag</button>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="flex flex-col w-3/12  ">
           {/* Lowerpart With card */}
           <div className="bg-gray-200 flex flex-col lg:flex-row">
+            {/* discount */}
+            <div className="bg-red-400  rounded-lg items-center text-white px-1 m-3 h-8 w-12 ">
+              -40%
+            </div>
             {/* photo */}
-            <div className="w-full p-1">
+            <div className="w-full">
               <img
-                src={jacket}
+                src={joyStick}
                 className=" mx-auto items-center w-full m-10 h-44 "
               />
             </div>
@@ -89,11 +91,15 @@ const FlashMonth = () => {
         <div className="flex flex-col w-3/12 ">
           {/* Lowerpart With card */}
           <div className="bg-gray-200 flex flex-col lg:flex-row">
+            {/* discount */}
+            <div className="bg-red-400  rounded-lg items-center text-white px-1 m-3 h-8 w-12 ">
+              -35%
+            </div>
             {/* photo */}
-            <div className="w-full p-1">
+            <div className="w-full">
               <img
-                src={bag}
-                className=" mx-auto items-center w-full m-10 h-44 "
+                src={keyBoard}
+                className=" mx-auto items-center w-full m-10 h-32 "
               />
             </div>
             {/* Icon */}
@@ -113,6 +119,9 @@ const FlashMonth = () => {
             </div>
           </div>
           <div className="">
+            <div className="w-full bg-black text-white flex flex-row justify-between items-center h-12">
+              <p className=" pl-20">Add to cart</p>
+            </div>
             <div>
               {/* Text */}
               <p>AK-900 Wired Keyboard</p>
@@ -140,10 +149,14 @@ const FlashMonth = () => {
         <div className="flex flex-col w-3/12  ">
           {/* Lowerpart With card */}
           <div className="bg-gray-200 flex flex-col lg:flex-row">
+            {/* discount */}
+            <div className="bg-red-400  rounded-lg items-center text-white px-1 m-3 h-8 w-12 ">
+              -25%
+            </div>
             {/* photo */}
-            <div className="w-full p-1">
+            <div className="w-full">
               <img
-                src={casset}
+                src={chair}
                 className=" mx-auto items-center w-full m-10 h-44"
               />
             </div>
@@ -191,10 +204,14 @@ const FlashMonth = () => {
         <div className="flex flex-col w-3/12 ">
           {/* Lowerpart With card */}
           <div className="bg-gray-200 flex flex-col lg:flex-row">
+            {/* discount */}
+            <div className="bg-red-400  rounded-lg items-center text-white px-1 m-3 h-8 w-12 ">
+              -30%
+            </div>
             {/* photo */}
-            <div className="w-full p-1">
+            <div className="w-full">
               <img
-                src={bookShelf}
+                src={tv}
                 className=" mx-auto items-center w-full m-10 h-44 "
               />
             </div>
@@ -240,8 +257,13 @@ const FlashMonth = () => {
           </div>
         </div>
       </div>
+      <div className="mx-auto mt-10 flex justify-center items-center">
+        {/* <button className="bg-red-500 text-white rounded-lg px-10 py-5 ">
+          View All Products
+        </button> */}
+      </div>
     </div>
   );
 };
 
-export default FlashMonth;
+export default FlashToday;

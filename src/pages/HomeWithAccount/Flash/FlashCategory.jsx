@@ -1,13 +1,13 @@
 import React from "react";
-import barLogo from "../../assets/icon/Ellipse_8.svg";
-import rightArrow from "../../assets/icon/Vector.svg";
-import leftArrow from "../../assets/icon/Vector_(1).svg";
-import cellPhone from "../../assets/icon/Category-CellPhone.svg";
-import camera from "../../assets/icon/Category-Camera.svg";
-import computer from "../../assets/icon/Category-Computer.svg";
-import gamePad from "../../assets/icon/Category-Gamepad.svg";
-import headPhone from "../../assets/icon/Category-Headphone.svg";
-import smartWatch from "../../assets/icon/Category-SmartWatch.svg";
+import barLogo from "../../../assets/icon/Ellipse_8.svg";
+import rightArrow from "../../../assets/icon/Vector.svg";
+import leftArrow from "../../../assets/icon/Vector_(1).svg";
+import cellPhone from "../../../assets/icon/Category-CellPhone.svg";
+import camera from "../../../assets/icon/Category-Camera.svg";
+import computer from "../../../assets/icon/Category-Computer.svg";
+import gamePad from "../../../assets/icon/Category-Gamepad.svg";
+import headPhone from "../../../assets/icon/Category-Headphone.svg";
+import smartWatch from "../../../assets/icon/Category-SmartWatch.svg";
 
 const FlashCategory = () => {
   return (

@@ -1,14 +1,14 @@
 import React from "react";
-import barLogo from "../../assets/icon/Ellipse_8.svg";
-import rightArrow from "../../assets/icon/Vector.svg";
-import leftArrow from "../../assets/icon/Vector_(1).svg";
-import bag from "../../assets/image/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag1.svg";
-import favouriteLogo from "../../assets/icon/Vector_(2).svg";
-import quickView from "../../assets/icon/QuickView.svg";
-import ratingStar from "../../assets/icon/Vector_(3).svg";
-import jacket from "../../assets/image/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat1.svg";
-import casset from "../../assets/image/gammaxx-l240-argb-1-500x5001.svg";
-import bookShelf from "../../assets/image/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash1.svg";
+import barLogo from "../../../assets/icon/Ellipse_8.svg";
+import rightArrow from "../../../assets/icon/Vector.svg";
+import leftArrow from "../../../assets/icon/Vector_(1).svg";
+import bag from "../../../assets/image/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag1.svg";
+import favouriteLogo from "../../../assets/icon/Vector_(2).svg";
+import quickView from "../../../assets/icon/QuickView.svg";
+import ratingStar from "../../../assets/icon/Vector_(3).svg";
+import jacket from "../../../assets/image/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat1.svg";
+import casset from "../../../assets/image/gammaxx-l240-argb-1-500x5001.svg";
+import bookShelf from "../../../assets/image/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash1.svg";
 
 const FlashMonth = () => {
   return (

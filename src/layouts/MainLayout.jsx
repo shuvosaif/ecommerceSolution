@@ -1,7 +1,7 @@
-import React from 'react'
-import TopHeader from '../components/Navbar/TopHeader'
-import Header from '../components/Navbar/Header'
-import FooterPart from '../components/Footer/FooterPart'
+import React from "react";
+import TopHeader from "./component/Navbar/TopHeader";
+import Header from "./component/Navbar/Header";
+import FooterPart from "./component/Footer/FooterPart";
 
 const MainLayout = ({ children }) => {
   return (
@@ -11,7 +11,7 @@ const MainLayout = ({ children }) => {
       {children}
       <FooterPart />
     </>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;

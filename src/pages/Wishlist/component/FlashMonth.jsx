@@ -12,7 +12,7 @@ import bookShelf from "../../../assets/image/sam-moghadam-khamseh-L_7MQsHl_aU-un
 
 const FlashMonth = () => {
   return (
-    <div className="container pt-36">
+    <div className="container py-14">
       <div className="flex flex-col lg:flex-row justify-between items-center">
         {/* upperpart with time & left right */}
         <div className="flex flex-col lg:flex-row  items-center gap-20">
@@ -22,16 +22,14 @@ const FlashMonth = () => {
             <div className="flex flex-col lg:flex-row items-center gap-4">
               {/* Today */}
               <div className="w-5 h-10 bg-red-600 rounded-lg"></div>
-              <div className="text-red-500">This Month</div>
+              <div className="">Just For You</div>
             </div>
-            <div className="text-[36px]">Best Selling Products</div>
+            {/* <div className="text-[36px]">Best Selling Products</div> */}
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-2">
+        <div className="flex flex-col lg:flex-row gap-2 py-20">
           {/* Button left & Right */}
-          <button className="bg-red-500 text-white rounded-md px-8 py-4 ">
-            View All
-          </button>
+          <button className="border-2 rounded-md px-8 py-4 ">See All</button>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-6">
