@@ -1,14 +1,12 @@
-import React from 'react'
-import SideBar from './component/SideBar'
-import RightPart from './component/RightBar'
+import React from "react";
+import SideBar from "./component/SideBar";
 
 const Contact = () => {
   return (
-    <div className='container'>
+    <div className="container">
       <SideBar />
-      <RightPart />
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

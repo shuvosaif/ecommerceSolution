@@ -37,7 +37,7 @@ const SideBar = () => {
         </div>
         <div className='box-border shadow-lg w-2/3 p-5 my-10'>
           <div className='px-5 py-5'>
-            <div className='flex flex-row justify-between items-center gap-3 bg-yellow-500 p-1 '>
+            <div className='flex flex-row justify-between items-center gap-3 p-1 '>
               <div>
                 <input
                   className='bg-gray-200 rounded-md py-2 w-full'
@@ -58,7 +58,7 @@ const SideBar = () => {
               </div>
             </div>
 
-            <div className='mt-5 w-full bg-green-500 p-1'>
+            <div className='mt-5 w-full p-1'>
               <textarea
                 className='bg-gray-200 rounded-md w-full '
                 placeholder='Enter Your  Message'
